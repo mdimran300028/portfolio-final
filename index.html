@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--header part start-->
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 header-height logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-7 header-height banner";>
+                <a href="index.html"><h1 class="heading">Imran's Portfolio Website</h1></a>
+                <h4 class="slogan">“Knowing your own darkness is the best method for dealing with the darknesses of other people.”</h4>
+            </div>
+        </div>
+        <!--header part end-->
+    </div>
+
+    <!--Navigation Menu-->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--<a href="" class="navbar-brand">LOGO</a>-->
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold" >Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link font-weight-bold">About</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link font-weight-bold">Portfolio</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link font-weight-bold">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link font-weight-bold">Contact</a></li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link font-weight-bold" data-toggle="modal" data-target="#logIn">Login</a></li>
+                <li class="nav-item"><a href="" class="nav-link font-weight-bold" data-toggle="modal" data-target="#singUp">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!--Main Content-->
+
+    <div class="container-fluid">
+        <!--Content part start-->
+        <div class="row">
+            <!--Sidebar part Start-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5 content-height sidebar">
+                <h4 class="pt-2">On Social Media:</h4>
+                <hr/>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                    <li><a href="">Google+</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                </ul>
+
+                <h4>Search the Query:</h4>
+                <form>
+                    <input type="search" placeholder="write here. ." class="form-control"><br/>
+                    <input type="submit" value="Search" class="search btn-info form-control">
+                </form>
+
+                <h4>Send Massage:</h4>
+                <form>
+                    <input type="text" name="sender-name" placeholder="Your name" class="form-control"><br/>
+                    <input type="email" name="email" placeholder="Your email address" class="form-control"><br/>
+                    <textarea cols="15" rows="5" class="form-control">Your massage here</textarea><br/>
+                    <input type="reset" value="Reset" class="btn-info reset form-control">
+                    <input type="submit" value="Submit" class="btn-info submit form-control">
+                </form>
+            </div>
+            <!--Sidebar part end-->
+
+            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-7 content-height content">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 p-0 bg-white">
+                        <div class="carousel slide" id="mySlider" data-ride="carousel" data-interval="2000">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-target="#mySlider" data-slide-to="0"></li>
+                                <li class="" data-target="#mySlider" data-slide-to="1"></li>
+                                <li class="" data-target="#mySlider" data-slide-to="2"></li>
+                                <li class="" data-target="#mySlider" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-thumbnail" src="images/slide1.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-thumbnail" src="images/slide2.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-thumbnail" src="images/slide3.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-thumbnail" src="images/slide4.jpg">
+                                </div>
+                            </div>
+                            <a href="#mySlider" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#mySlider" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 archive-bg sidebar">
+                        <h4 class="pt-2">Archive:</h4>
+                        <hr/>
+                        <table class="table table-bordered archive">
+                            <caption class="font-weight-bold">DECEMBER-2017</caption>
+                            <thead>
+                                <tr>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">1</a></td>
+                                    <td><a href="">2</a></td>
+                                    <td><a href="">3</a></td>
+                                    <td><a href="">4</a></td>
+                                    <td><a href="">5</a></td>
+                                    <td><a href="">6</a></td>
+                                    <td><a href="">7</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">8</a></td>
+                                    <td><a href="">9</a></td>
+                                    <td><a href="">10</a></td>
+                                    <td><a href="">11</a></td>
+                                    <td><a href="">12</a></td>
+                                    <td><a href="">13</a></td>
+                                    <td><a href="">14</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15</a></td>
+                                    <td><a href="">16</a></td>
+                                    <td><a href="">17</a></td>
+                                    <td><a href="">18</a></td>
+                                    <td><a href="">19</a></td>
+                                    <td><a href="">20</a></td>
+                                    <td><a href="">21</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">22</a></td>
+                                    <td><a href="">23</a></td>
+                                    <td><a href="">24</a></td>
+                                    <td><a href="">25</a></td>
+                                    <td><a href="">26</a></td>
+                                    <td><a href="">27</a></td>
+                                    <td><a href="">28</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">29</a></td>
+                                    <td><a href="">30</a></td>
+                                    <td><a href="">31</a></td>
+                                    <td><a href=""></a></td>
+                                    <td><a href=""></a></td>
+                                    <td><a href=""></a></td>
+                                    <td><a href=""></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-xl-12 mission">
+                    <h2>My Mission</h2>
+                    <p>I want to be a reputed web based app developer. Not only that, I want to distribute this knowledge among people who are frustrated due to their unemployment, specially in rural area. </p>
+                </div>
+                <div class="col-xl-12 vission">
+                    <h2>Vision statement</h2>
+                    <p>To be success in any mission people must have to set their vision. I have set my vision to implement the mission stated above.</p>
+                    <h4>To do list </h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                        <li>WordPress</li>
+                        <li>and a lot of practice. . .</li>
+                    </ul>
+                    <p>Some items of the list above already learned like HTML, CSS, Javascript(Basic), jQuery (Basic). My target is within 2018 I have to be the boss of topics above by hook or by crook.</p>
+                </div>
+                <div class="col-xl-12">
+                    <h2>Dream</h2>
+                    <p>Every body have some dream, like them I have a dream also and that is within 4 to 5 years I will stablish an IT-Farm in my district Barisal. Aim of this farm will be to train frustrated graduate students of the district free of cost and make them skilled manpower.</p>
+                </div>
+            </div>
+        </div>
+        <!--Content part end-->
+    </div>
+
+    <!--Footer-->
+
+    <footer class=" ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 bg-dark">
+                    <p class="text-center mb-0 p-2 text-secondary">&copy; Copyright: <a class="text-info" href="about.html" target="_blank">Idris Ahmad Imran</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Modal Login-->
+    <div class="modal fade" id="logIn">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="text-warning">Login</h3>
+                    <button class="close" data-dismiss="modal">&cross;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="demo.html" method="post">
+                        <div class="form-group">
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" name="email_address" id="emailAddress" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="btn" value="OK" class="btn btn-success btn-block"/>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="modal-footer"></div>-->
+            </div>
+        </div>
+    </div>
+
+    <!--MOdal Sign Up-->
+
+    <div class="modal fade" id="singUp">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="text-warning">Be a Member of My Team</h3>
+                    <button class="close" data-dismiss="modal">&cross;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="demo.html" method="post">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="first_name" id="firstName" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="last_name" id="lastName" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" name="email_address" id="emailAddress" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="number" name="phone_number" id="phoneNumber" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Date of Birth</label>
+                            <input type="date" name="date_of_birth" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label><input type="radio" name="gender" value="male"/>Male</label>
+                            <label><input type="radio" name="gender" value="female"/>Female</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="address" class="form-control" rows="5"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="districtName">District Name</label>
+                            <select name="district_name" class="form-control" id="districtName">
+                                <option>--Select District Name--</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Faridpur">Faridpur</option>
+                                <option value="Madaripur">Madaripur</option>
+                                <option value="Noakhali">Noakhali</option>
+                                <option value="Barisal">Barisal</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Kusthia">Kusthia</option>
+                                <option value="Comilla">Comilla</option>
+                                <option value="Bhola">Bhola</option>
+                                <option value="Potuakhali">Potuakhali</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input type="file" name="image" accept="image/*" multiple/>
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" name="agree" value="" class="form-check-input"/>I agree with all terms and conditions.
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="btn" value="Submit" class="btn btn-success btn-block"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
